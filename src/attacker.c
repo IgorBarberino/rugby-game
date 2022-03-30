@@ -8,8 +8,8 @@
 
 // Main header
 #include "attacker.h"
-direction_t last_direction = DIR_RIGHT
-direction_t NEW_direction = DIR_UP_RIGHT
+direction_t last_direction = DIR_RIGHT;
+direction_t NEW_direction = DIR_UP_RIGHT;
 // Macros
 #define UNUSED(x) (void)(x) // Auxiliary to avoid error of unused parameter
 
