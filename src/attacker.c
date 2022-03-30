@@ -21,12 +21,12 @@ direction_t execute_attacker_strategy(
     position_t attacker_position, Spy defender_spy) {
   UNUSED(attacker_position);
   UNUSED(defender_spy);
-  last_direction = new_direction
+  last_direction = new_direction;
   if (last_direction == DIR_RIGHT)
-      new_direction = DIR_UP_RIGHT
+      new_direction = DIR_UP_RIGHT;
   else
-      new_direction = DIR_RIGHT
-  return (new_direction)
+      new_direction = DIR_RIGHT;
+  return (new_direction);
 }
 
 /*----------------------------------------------------------------------------*/
